@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do Advanced</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+
+    
+<body>
+    <div class="all_parent">
+    <!-- To Do Structure -->
+    <div class="parent_container_All">
+        <!-- input container -->
+        <div class="task_input">
+            <!-- <i class="fa-solid fa-align-left"></i> -->
+            <!-- <img src="images/align-left-solid.svg" alt=""> -->
+            <i class="fa-solid fa-align-left fa-2xl" style="color: rgb(37, 36, 36);"></i>
+            <input type="text" class="input_getValue" placeholder="Add Your Task">
+        </div>
+
+        <!-- controls and filter container -->
+        <div class="controls_container">
+            <div class="controls_child">
+                <span class="active" id="all">ALL</span>
+                <span id="panding">Pending</span>
+                <span  id="Completed">Completed</span>
+            </div>
+            <button class="Clear_btn ">Clear All</button>
+        </div>
+        
+        <!-- task list itemes  -->
+        <ul class="ul_task"></ul>
+    </div>
+
+</div>
+
+    <!-- javasccript link -->
+    <script src="./main.js"></script>
+</body>
+</html>
