@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(images/backgorund\ 1.jpg);
+    background-image: url(images/kindle_0005_layer_3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: black; */
@@ -24,7 +24,7 @@ body{
     
     /* border: 50px solid white;
     border-radius: 0.5rem; */
-    height: 70vh;
+    /* height: 70vh; */
     /* margin: 50px; */
     /* width: 80%; */
     padding-top: 60px;
@@ -215,4 +215,140 @@ border: 0;
 
 .controls_child .active{
     color: #3c87ff;
+}
+@media (min-width: 10px) {
+    body{
+        background-image: url(images/minimum\ image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parent_container_All{
+        width: 90%;
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+    .controls_child span{
+        font-size: 12px;
+        margin: 0 2px;
+    }
+    .controls_child{
+        cursor: pointer;
+        width: 90%;
+
+    }
+    .controls_container button{
+        padding: 10px 15px;
+        font-size: 12px;
+        border-radius: 0.2rem;
+        letter-spacing: 0.5px;
+    }
+    .label p{
+        /* width: 80%; */
+        font-size: 10px;
+    }
+    .label input{
+        top: 3px;
+        bottom : 3px;
+        
+    }
+    .task_input input{
+        border-radius: 0.2rem;
+        height: 52px;
+        font-size: 12px;
+    }
+    .task_input i{
+ 
+        padding-top: 5px;
+        margin: -5px 0px;
+    }
+       
+}
+
+
+
+@media   (min-width: 360px) {
+    body{
+        background-image: url(images/ff9c7de15b44743cd4994a7e93dd12a3--white-christmas-christmas-time.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parent_container_All{
+        width: 90%;
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+    .controls_child span{
+        font-size: 12px;
+    }
+    .controls_child{
+        cursor: pointer;
+        width: 80%;
+
+    }
+    .controls_container button{
+        padding: 10px 15px;
+        font-size: 12px;
+        border-radius: 0.2rem;
+        letter-spacing: 0px;
+    }
+    .label p{
+        /* width: 80%; */
+        font-size: 15px;
+    }
+    .task_input input{
+        border-radius: 0.2rem;
+        height: 52px;
+        font-size: 16px;
+    }
+    
+}
+@media (min-width: 500px) {
+    body{
+        background-image: url(images/500.jpg);
+    }
+    
+}
+@media (min-width: 768px) {
+    
+    body{
+        background-image: url(images/biggest\ size.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .task_input i{
+ 
+        padding-top: 5px;
+        margin: -5px 0px;
+    }
+    .parent_container_All{
+        width: 90%;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+    .controls_child span{
+        font-size: 16px;
+    }
+    .controls_child{
+        cursor: pointer;
+        width: 80%;
+
+    }
+    .controls_container button{
+        padding: 10px 15px;
+        font-size: 16px;
+        border-radius: 0.2rem;
+        letter-spacing: 0px;
+    }
+    .label p{
+        /* width: 80%; */
+        font-size: 15px;
+    }
+    .task_input input{
+        border-radius: 0.2rem;
+        height: 52px;
+        font-size: 18px;
+    }
+    
+    
+    
 }

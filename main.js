@@ -59,8 +59,7 @@ function creatTodo(filter){
              <label for="${id}" class="label">
              
              <input class="input_check" onclick="update(this)" type="checkbox" id="${id}" ${iscomplete}>
-             <p class="task_para ${iscomplete}">${todo.name}</p>
-                 </label>
+           <p class="task_para ${iscomplete}">${todo.name}</p>                 </label>
 
                  </div>
              <div class="settings">
